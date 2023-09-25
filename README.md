@@ -1,7 +1,7 @@
 # Pipelined_MIPS_CPU
 
 ## This project is an implementation of MIPS pipelined CPU with 10 arithmetic instructions and 4 branch instructions which supports hazard detection and data forwarding. 
-## The 10 arithmetic instructions are as follows:
+The 10 arithmetic instructions are as follows:
 1. ADD
 2. ADDI
 3. SUB
