@@ -20,7 +20,7 @@ The 4 branch instructions are as follows:
 4. BGT
 
 ## There are two testbenches used in this project. 
-## The first one is 
+The first one is 
 1. addi $1,$0,16
 2. mult $2,$1,$1
 3. addi $3,$0,8
@@ -32,7 +32,7 @@ The 4 branch instructions are as follows:
 9. and $8,$7,$3
 10. slt $9,$8,$7
 
-## The second one is 
+The second one is 
 1. addi $2, $0, 3
 2. sw $2, 0($0)
 3. addi $2, $0, 1
