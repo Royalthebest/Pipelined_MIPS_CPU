@@ -1,6 +1,9 @@
 # Pipelined_MIPS_CPU
 
-## This project is an implementation of MIPS pipelined CPU with 10 arithmetic instructions and 4 branch instructions which supports hazard detection and data forwarding. 
+This project is an Verilog implementation of MIPS pipelined CPU with 10 arithmetic instructions and 4 branch instructions. This implementation uses two techniques to improve the performance.
+The first one is pipelined with 5 stages: Instruction Fetch(IF), Instruction Decode(ID), Execute(EX), Memory Access(MEM), and Write Back(WB). This implementation allows multiple instructions to be executed in the CPU at the same time.
+The Second one is hazard detection and data forwarding. This implementation can reduce the number of NOP instruction insertion due to the data hazerd.
+
 The 10 arithmetic instructions are as follows:
 1. ADD
 2. ADDI
