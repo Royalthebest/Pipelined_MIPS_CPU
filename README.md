@@ -21,11 +21,10 @@
 
 ## There are two testbenches used in this project. 
 ## The first one is 
-I1: addi $1,$0,16
-
-I2: mult $2,$1,$1
-I3: addi $3,$0,8
-I4: sw $1,4($0)
+1. addi $1,$0,16
+2. mult $2,$1,$1
+3. addi $3,$0,8
+4. sw $1,4($0)
 I5: lw $4,4($0)
 I6: sub $5,$4,$3
 I7: add $6,$3,$1
