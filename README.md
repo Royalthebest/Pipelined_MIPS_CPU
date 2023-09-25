@@ -1,6 +1,6 @@
 # Pipelined_MIPS_CPU
 
-This project is an Verilog implementation of MIPS pipelined CPU with 10 arithmetic instructions and 4 branch instructions. This implementation uses two techniques to improve the performance.
+This project is an Verilog implementation of MIPS pipelined CPU with 10 arithmetic instructions and 4 branch instructions. This implementation uses the following two techniques to improve the performance.
 
 1. Pipelined with 5 stages: Instruction Fetch(IF), Instruction Decode(ID), Execute(EX), Memory Access(MEM), and Write Back(WB). This implementation allows multiple instructions to be executed in the CPU at the same time to improve the throughput of MIPS-CPU.
 
