@@ -13,7 +13,7 @@
 9. SW
 10. MUTI
 
-## The 4 branch instructions are as follows:
+The 4 branch instructions are as follows:
 1. BEQ
 2. BNE
 3. BGE
